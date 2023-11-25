@@ -1,0 +1,538 @@
+.student-subjects-grades-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.student-subjects-grades-container01 {
+  gap: 0;
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  position: relative;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.student-subjects-grades-container02 {
+  top: 30px;
+  flex: 0 0 auto;
+  left: 30px;
+  width: 692px;
+  height: 95px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+}
+.student-subjects-grades-navlink {
+  top: 0px;
+  left: 268px;
+  width: 198px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+  border-width: 0px;
+  margin-right: auto;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.student-subjects-grades-navlink1 {
+  top: 0px;
+  left: 68px;
+  width: 160px;
+  bottom: 0px;
+  height: 94px;
+  margin: auto;
+  position: absolute;
+  border-width: 0px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.student-subjects-grades-navlink2 {
+  top: 0px;
+  right: 42px;
+  width: 152px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+  border-width: 0px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.student-subjects-grades-navlink3 {
+  display: contents;
+}
+.student-subjects-grades-icon-logout {
+  top: 50px;
+  right: 129px;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  position: absolute;
+  text-decoration: none;
+}
+.student-subjects-grades-navlink4 {
+  top: 50px;
+  right: 29px;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+.student-subjects-grades-container03 {
+  top: 222px;
+  flex: 0 0 auto;
+  right: 114px;
+  width: 703px;
+  height: 514px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 15px;
+  background-color: #d0ffe6;
+}
+.student-subjects-grades-text {
+  top: 20px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.student-subjects-grades-text03 {
+  top: 150px;
+  left: 100px;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.student-subjects-grades-text06 {
+  top: 150px;
+  left: 230px;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.student-subjects-grades-text09 {
+  top: 62px;
+  left: 283px;
+  position: absolute;
+}
+.student-subjects-grades-text12 {
+  top: 100px;
+  left: 290px;
+  position: absolute;
+  font-size: 15px;
+}
+.student-subjects-grades-text15 {
+  top: 150px;
+  left: 400px;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.student-subjects-grades-text18 {
+  top: 150px;
+  left: 550px;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.student-subjects-grades-container04 {
+  top: 129px;
+  left: 100px;
+  width: 1151px;
+  height: 654px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 20px;
+  justify-content: flex-start;
+}
+.student-subjects-grades-container05 {
+  top: 96px;
+  flex: 0 0 auto;
+  left: 45px;
+  width: 930px;
+  height: 95px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 15px;
+  background-color: var(--dl-color-gray-white);
+}
+.student-subjects-grades-text21 {
+  top: 5px;
+  left: 350px;
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.student-subjects-grades-text24 {
+  top: 48px;
+  left: 400px;
+  position: absolute;
+}
+.student-subjects-grades-text27 {
+  left: 407px;
+  bottom: 10px;
+  position: absolute;
+  font-size: 15px;
+}
+.student-subjects-grades-button {
+  right: 15px;
+  bottom: 30px;
+  position: absolute;
+  text-decoration: none;
+}
+.student-subjects-grades-container06 {
+  top: 200px;
+  flex: 0 0 auto;
+  left: 45px;
+  width: 930px;
+  height: 95px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 15px;
+  background-color: var(--dl-color-gray-white);
+}
+.student-subjects-grades-text30 {
+  top: 5px;
+  left: 350px;
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.student-subjects-grades-text33 {
+  top: 48px;
+  left: 400px;
+  position: absolute;
+}
+.student-subjects-grades-text36 {
+  left: 407px;
+  bottom: 10px;
+  position: absolute;
+  font-size: 15px;
+}
+.student-subjects-grades-button1 {
+  right: 15px;
+  bottom: 30px;
+  position: absolute;
+  text-decoration: none;
+}
+.student-subjects-grades-container07 {
+  top: 305px;
+  flex: 0 0 auto;
+  left: 45px;
+  width: 930px;
+  height: 95px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 15px;
+  background-color: var(--dl-color-gray-white);
+}
+.student-subjects-grades-text39 {
+  top: 5px;
+  left: 350px;
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.student-subjects-grades-text42 {
+  top: 48px;
+  left: 400px;
+  position: absolute;
+}
+.student-subjects-grades-text45 {
+  left: 407px;
+  bottom: 10px;
+  position: absolute;
+  font-size: 15px;
+}
+.student-subjects-grades-button2 {
+  right: 15px;
+  bottom: 30px;
+  position: absolute;
+  text-decoration: none;
+}
+.student-subjects-grades-container08 {
+  top: 410px;
+  flex: 0 0 auto;
+  left: 45px;
+  width: 930px;
+  height: 95px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 15px;
+  background-color: var(--dl-color-gray-white);
+}
+.student-subjects-grades-text48 {
+  top: 5px;
+  left: 350px;
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.student-subjects-grades-text51 {
+  top: 48px;
+  left: 400px;
+  position: absolute;
+}
+.student-subjects-grades-text54 {
+  left: 407px;
+  bottom: 10px;
+  position: absolute;
+  font-size: 15px;
+}
+.student-subjects-grades-button3 {
+  right: 15px;
+  bottom: 30px;
+  position: absolute;
+  text-decoration: none;
+}
+.student-subjects-grades-container09 {
+  flex: 0 0 auto;
+  left: 45px;
+  width: 930px;
+  bottom: 45px;
+  height: 95px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 15px;
+  background-color: var(--dl-color-gray-white);
+}
+.student-subjects-grades-text57 {
+  top: 5px;
+  left: 350px;
+  position: absolute;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.student-subjects-grades-text60 {
+  top: 48px;
+  left: 400px;
+  position: absolute;
+}
+.student-subjects-grades-text63 {
+  left: 407px;
+  bottom: 10px;
+  position: absolute;
+  font-size: 15px;
+}
+.student-subjects-grades-button4 {
+  right: 15px;
+  bottom: 30px;
+  position: absolute;
+  text-decoration: none;
+}
+.student-subjects-grades-navlink5 {
+  display: contents;
+}
+.student-subjects-grades-close-tab {
+  top: 25px;
+  left: 40px;
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+  text-decoration: none;
+}
+.student-subjects-grades-footer {
+  left: -1px;
+  width: 1920px;
+  bottom: 3px;
+  height: 146px;
+  display: flex;
+  position: absolute;
+  max-width: 100%;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  padding-top: 5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D9D9D9;
+}
+.student-subjects-grades-text66 {
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  width: 308px;
+  bottom: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.student-subjects-grades-text68 {
+  top: 49px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 311px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: bold;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.student-subjects-grades-text70 {
+  top: 79px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 288px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Thin;
+  text-align: left;
+  font-family: "Poppins";
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.student-subjects-grades-text72 {
+  top: 58px;
+  left: 1031px;
+  color: rgba(0, 0, 0, 1);
+  width: 144px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Light;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.student-subjects-grades-text74 {
+  top: 62px;
+  left: 761px;
+  color: rgba(0, 0, 0, 1);
+  width: 173px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Light;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.student-subjects-grades-image {
+  top: 14px;
+  right: 51px;
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  margin: auto;
+  opacity: 1;
+  position: absolute;
+  object-fit: cover;
+}
+.student-subjects-grades-image1 {
+  top: 14px;
+  right: 160px;
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  margin: auto;
+  opacity: 1;
+  position: absolute;
+  object-fit: cover;
+}
+.student-subjects-grades-pasted-image {
+  top: 52px;
+  left: 711px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.student-subjects-grades-pasted-image1 {
+  top: 48px;
+  left: 983px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.student-subjects-grades-link {
+  display: contents;
+}
+.student-subjects-grades-facebook {
+  top: 56px;
+  left: 1367px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  text-decoration: none;
+}
+.student-subjects-grades-instagam {
+  top: 57px;
+  left: 1441px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+@media(max-width: 767px) {
+  .student-subjects-grades-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .student-subjects-grades-footer {
+    padding: var(--dl-space-space-unit);
+  }
+}

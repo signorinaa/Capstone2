@@ -1,0 +1,790 @@
+.enrollment-page1-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.enrollment-page1-image {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 800px;
+  bottom: 0px;
+  height: 800px;
+  margin: auto;
+  opacity: 0.03;
+  position: absolute;
+  object-fit: cover;
+}
+.enrollment-page1-form {
+  top: 69px;
+  right: -3px;
+  width: 100%;
+  height: 896px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.enrollment-page1-text {
+  top: 78px;
+  left: 41px;
+  position: absolute;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+.enrollment-page1-sy {
+  top: 76px;
+  left: 161px;
+  width: 75px;
+  height: 22px;
+  position: absolute;
+  border-style: solid;
+}
+.enrollment-page1-sy1 {
+  top: 76px;
+  left: 249px;
+  width: 75px;
+  height: 22px;
+  position: absolute;
+  border-style: solid;
+}
+.enrollment-page1-sy2 {
+  top: 103px;
+  left: 250px;
+  width: 75px;
+  height: 22px;
+  position: absolute;
+  border-style: solid;
+}
+.enrollment-page1-text01 {
+  top: 104px;
+  left: 41px;
+  position: absolute;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+.enrollment-page1-text02 {
+  top: 194px;
+  left: 848px;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Poppins";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.enrollment-page1-textinput {
+  top: 248px;
+  left: 38px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput01 {
+  top: 246px;
+  left: 308px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput02 {
+  top: 246px;
+  left: 567px;
+  width: 104px;
+  height: 37px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput03 {
+  top: 298px;
+  left: 306px;
+  width: 358px;
+  height: 35px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput04 {
+  top: 344px;
+  left: 453px;
+  width: 217px;
+  height: 38px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput05 {
+  top: 298px;
+  left: 38px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput06 {
+  top: 345px;
+  left: 38px;
+  width: 220px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput07 {
+  top: 345px;
+  left: 265px;
+  width: 182px;
+  height: 35px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-container01 {
+  top: 70px;
+  flex: 0 0 auto;
+  right: 37px;
+  width: 736px;
+  height: 106px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+}
+.enrollment-page1-text03 {
+  top: 19px;
+  left: 31px;
+  position: absolute;
+  font-size: 20px;
+}
+.enrollment-page1-checkbox {
+  top: 70px;
+  left: 165px;
+  position: absolute;
+}
+.enrollment-page1-checkbox01 {
+  top: 71px;
+  left: 231px;
+  position: absolute;
+}
+.enrollment-page1-checkbox02 {
+  top: 71px;
+  left: 581px;
+  position: absolute;
+}
+.enrollment-page1-checkbox03 {
+  top: 71px;
+  right: 81px;
+  position: absolute;
+}
+.enrollment-page1-sy3 {
+  top: 134px;
+  left: 537px;
+  width: 234px;
+  height: 26px;
+  position: absolute;
+  border-style: solid;
+}
+.enrollment-page1-sy4 {
+  top: 166px;
+  left: 253px;
+  width: 234px;
+  height: 26px;
+  position: absolute;
+  border-style: solid;
+}
+.enrollment-page1-text10 {
+  top: 136px;
+  left: 41px;
+  position: absolute;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+.enrollment-page1-text11 {
+  top: 168px;
+  left: 41px;
+  position: absolute;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+.enrollment-page1-container02 {
+  top: 248px;
+  flex: 0 0 auto;
+  left: 677px;
+  width: 671px;
+  height: 136px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+}
+.enrollment-page1-text12 {
+  top: 19px;
+  left: 31px;
+  position: absolute;
+  font-size: 20px;
+}
+.enrollment-page1-checkbox04 {
+  top: 93px;
+  left: 46px;
+  position: absolute;
+}
+.enrollment-page1-checkbox05 {
+  top: 94px;
+  left: 112px;
+  position: absolute;
+}
+.enrollment-page1-textinput08 {
+  top: 83px;
+  right: 18px;
+  width: 273px;
+  height: 36px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-container03 {
+  top: 406px;
+  flex: 0 0 auto;
+  left: 43px;
+  width: 882px;
+  height: 230px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+}
+.enrollment-page1-text19 {
+  left: 20px;
+  bottom: -9px;
+  position: absolute;
+  font-size: 15px;
+}
+.enrollment-page1-checkbox06 {
+  top: 120px;
+  left: 101px;
+  position: absolute;
+}
+.enrollment-page1-checkbox07 {
+  left: 22px;
+  bottom: 29px;
+  position: absolute;
+}
+.enrollment-page1-checkbox08 {
+  top: 154px;
+  left: 133px;
+  position: absolute;
+}
+.enrollment-page1-checkbox09 {
+  top: 154px;
+  left: 19px;
+  position: absolute;
+}
+.enrollment-page1-checkbox10 {
+  top: 121px;
+  left: 19px;
+  position: absolute;
+}
+.enrollment-page1-checkbox11 {
+  top: 84px;
+  left: 19px;
+  position: absolute;
+}
+.enrollment-page1-checkbox12 {
+  top: 84px;
+  left: 178px;
+  position: absolute;
+}
+.enrollment-page1-text39 {
+  right: 10px;
+  bottom: 4px;
+  position: absolute;
+}
+.enrollment-page1-checkbox13 {
+  top: 80px;
+  left: 366px;
+  position: absolute;
+}
+.enrollment-page1-checkbox14 {
+  top: 115px;
+  left: 366px;
+  position: absolute;
+}
+.enrollment-page1-checkbox15 {
+  top: 153px;
+  left: 366px;
+  position: absolute;
+}
+.enrollment-page1-checkbox16 {
+  left: 364px;
+  bottom: 24px;
+  position: absolute;
+}
+.enrollment-page1-checkbox17 {
+  top: 152px;
+  left: 498px;
+  position: absolute;
+}
+.enrollment-page1-checkbox18 {
+  top: 79px;
+  left: 545px;
+  position: absolute;
+}
+.enrollment-page1-checkbox19 {
+  top: 116px;
+  left: 628px;
+  position: absolute;
+}
+.enrollment-page1-container04 {
+  flex: 0 0 auto;
+  right: 37px;
+  width: 949px;
+  bottom: 89px;
+  height: 157px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+}
+.enrollment-page1-text52 {
+  top: 16px;
+  right: 1px;
+  position: absolute;
+  font-size: 15px;
+}
+.enrollment-page1-text54 {
+  font-size: 15px;
+}
+.enrollment-page1-text57 {
+  font-size: 15px;
+}
+.enrollment-page1-text60 {
+  font-size: 15px;
+}
+.enrollment-page1-container05 {
+  flex: 0 0 auto;
+  left: 43px;
+  width: 884px;
+  bottom: -5px;
+  height: 253px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+}
+.enrollment-page1-text64 {
+  top: 30px;
+  left: 322px;
+  position: absolute;
+  font-size: 20px;
+  align-self: center;
+  font-style: normal;
+  font-family: "Poppins";
+  font-weight: 900;
+}
+.enrollment-page1-textinput09 {
+  top: 90px;
+  left: 9px;
+  position: absolute;
+}
+.enrollment-page1-textinput10 {
+  top: 90px;
+  left: 270px;
+  width: 228px;
+  position: absolute;
+}
+.enrollment-page1-textinput11 {
+  top: 91px;
+  left: 510px;
+  width: 203px;
+  position: absolute;
+}
+.enrollment-page1-textinput12 {
+  top: 90px;
+  right: 6px;
+  width: 157px;
+  height: 38px;
+  position: absolute;
+}
+.enrollment-page1-textinput13 {
+  top: 141px;
+  left: 10px;
+  position: absolute;
+}
+.enrollment-page1-textinput14 {
+  left: 12px;
+  bottom: 25px;
+  position: absolute;
+}
+.enrollment-page1-textinput15 {
+  top: 141px;
+  left: 271px;
+  width: 229px;
+  position: absolute;
+}
+.enrollment-page1-textinput16 {
+  left: 273px;
+  width: 229px;
+  bottom: 25px;
+  position: absolute;
+}
+.enrollment-page1-textinput17 {
+  top: 142px;
+  left: 511px;
+  width: 201px;
+  position: absolute;
+}
+.enrollment-page1-textinput18 {
+  left: 513px;
+  width: 201px;
+  bottom: 24px;
+  position: absolute;
+}
+.enrollment-page1-textinput19 {
+  top: 142px;
+  right: 6px;
+  width: 157px;
+  height: 38px;
+  position: absolute;
+}
+.enrollment-page1-textinput20 {
+  right: 6px;
+  width: 157px;
+  bottom: 22px;
+  height: 38px;
+  position: absolute;
+}
+.enrollment-page1-container06 {
+  top: 247px;
+  flex: 0 0 auto;
+  right: 28px;
+  width: 528px;
+  height: 136px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+}
+.enrollment-page1-text65 {
+  top: 16px;
+  left: 31px;
+  position: absolute;
+  font-size: 20px;
+}
+.enrollment-page1-text66 {
+  top: 63px;
+  left: 34px;
+  position: absolute;
+  font-size: 20px;
+}
+.enrollment-page1-textinput21 {
+  left: 0px;
+  right: 0px;
+  width: 326px;
+  bottom: 5px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-container07 {
+  top: 407px;
+  flex: 0 0 auto;
+  right: 37px;
+  width: 949px;
+  height: 111px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+}
+.enrollment-page1-textinput22 {
+  top: 42px;
+  left: 14px;
+  width: 89px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-text67 {
+  top: 10px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.enrollment-page1-textinput23 {
+  top: 42px;
+  left: 112px;
+  width: 95px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput24 {
+  top: 42px;
+  left: 213px;
+  width: 143px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput25 {
+  top: 42px;
+  left: 363px;
+  width: 161px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput26 {
+  top: 42px;
+  left: 533px;
+  width: 158px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput27 {
+  top: 42px;
+  right: 111px;
+  width: 136px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput28 {
+  top: 42px;
+  right: 13px;
+  width: 92px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+}
+.enrollment-page1-container08 {
+  top: 531px;
+  flex: 0 0 auto;
+  right: 36px;
+  width: 949px;
+  height: 104px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+}
+.enrollment-page1-textinput29 {
+  top: 42px;
+  left: 14px;
+  width: 89px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-text68 {
+  top: 10px;
+  left: 400px;
+  position: absolute;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.enrollment-page1-textinput30 {
+  top: 42px;
+  left: 112px;
+  width: 95px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput31 {
+  top: 42px;
+  left: 213px;
+  width: 143px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput32 {
+  top: 42px;
+  left: 363px;
+  width: 161px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput33 {
+  top: 42px;
+  left: 533px;
+  width: 158px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput34 {
+  top: 42px;
+  right: 111px;
+  width: 136px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+}
+.enrollment-page1-textinput35 {
+  top: 42px;
+  right: 13px;
+  width: 92px;
+  height: 36px;
+  padding: 0px;
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+}
+.enrollment-page1-container09 {
+  flex: 0 0 auto;
+  left: 935px;
+  width: 628px;
+  bottom: -5px;
+  height: 89px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: solid;
+  border-width: 1px;
+}
+.enrollment-page1-text69 {
+  top: 21px;
+  left: 13px;
+  position: absolute;
+  font-size: 18px;
+}
+.enrollment-page1-textinput36 {
+  left: 15px;
+  width: 177px;
+  bottom: 10px;
+  padding: 0px;
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+}
+.enrollment-page1-textinput37 {
+  left: 199px;
+  width: 215px;
+  bottom: 10px;
+  padding: 0px;
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+}
+.enrollment-page1-textinput38 {
+  left: 419px;
+  width: 167px;
+  bottom: 10px;
+  padding: 0px;
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+}
+.enrollment-page1-container10 {
+  flex: 0 0 auto;
+  right: 38px;
+  width: 312px;
+  bottom: -5px;
+  height: 89px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  background-color: #D9D9D9;
+}
+.enrollment-page1-text72 {
+  top: 20px;
+  right: 10px;
+  position: absolute;
+  font-size: 18px;
+  text-align: left;
+}
+.enrollment-page1-select {
+  top: 48px;
+  left: 36px;
+  position: absolute;
+}
+.enrollment-page1-select1 {
+  top: 48px;
+  left: 152px;
+  position: absolute;
+}
+.enrollment-page1-header {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 115px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.enrollment-page1-text73 {
+  top: 44px;
+  left: 699px;
+  position: absolute;
+  font-size: 2em;
+  font-family: "Poppins";
+}
+.enrollment-page1-navlink {
+  display: contents;
+}
+.enrollment-page1-icon-logout {
+  top: 30px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  position: absolute;
+  text-decoration: none;
+}
+.enrollment-page1-image1 {
+  top: 12px;
+  left: 583px;
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  margin: auto;
+  opacity: 1;
+  position: absolute;
+  object-fit: cover;
+}
+.enrollment-page1-text74 {
+  left: 850px;
+  bottom: 12px;
+  position: absolute;
+}
+.enrollment-page1-navlink1 {
+  right: 9px;
+  width: 73px;
+  bottom: 11px;
+  height: 29px;
+  position: absolute;
+  text-decoration: none;
+}

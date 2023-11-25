@@ -1,0 +1,408 @@
+.admin-enroll-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+.admin-enroll-container1 {
+  gap: 0;
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  position: relative;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.admin-enroll-navlink {
+  display: contents;
+}
+.admin-enroll-icon-logout {
+  top: 50px;
+  right: 129px;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  position: absolute;
+  text-decoration: none;
+}
+.admin-enroll-text {
+  top: 50px;
+  right: 29px;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Poppins";
+}
+.admin-enroll-button {
+  top: 30px;
+  flex: 0 0 auto;
+  left: 30px;
+  width: 464px;
+  height: 95px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+}
+.admin-enroll-navlink1 {
+  top: 0px;
+  left: 268px;
+  width: 190px;
+  bottom: 0px;
+  height: 90px;
+  margin: auto;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  border-width: 0px;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-white);
+}
+.admin-enroll-navlink2 {
+  top: 0px;
+  left: 68px;
+  width: 160px;
+  bottom: 0px;
+  height: 90px;
+  margin: auto;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  border-width: 0px;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: var(--dl-color-gray-white);
+}
+.admin-enroll-students {
+  top: 161px;
+  left: 0px;
+  right: 0px;
+  width: 1920px;
+  height: 630px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 20px;
+  justify-content: flex-start;
+}
+.admin-enroll-container2 {
+  top: 23px;
+  flex: 0 0 auto;
+  right: 70px;
+  width: 1340px;
+  height: 580px;
+  display: flex;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-radius: 25px;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.admin-enroll-text01 {
+  top: 40px;
+  left: 90px;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Poppins";
+}
+.admin-enroll-text02 {
+  top: 40px;
+  left: 300px;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Poppins";
+}
+.admin-enroll-text03 {
+  top: 40px;
+  left: 500px;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Poppins";
+}
+.admin-enroll-text04 {
+  top: 40px;
+  left: 700px;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Poppins";
+}
+.admin-enroll-text05 {
+  top: 40px;
+  left: 900px;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Poppins";
+}
+.admin-enroll-text06 {
+  top: 40px;
+  left: 1100px;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Poppins";
+}
+.admin-enroll-container3 {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 120px;
+  width: 342px;
+  bottom: 0px;
+  height: 295px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-radius: 15px;
+  background-color: var(--dl-color-gray-white);
+}
+.admin-enroll-subject {
+  top: 23px;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 35px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+.admin-enroll-text07 {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.admin-enroll-sort-by {
+  top: 89px;
+  left: 25px;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.admin-enroll-container4 {
+  top: 123px;
+  flex: 0 0 auto;
+  left: 28px;
+  width: 291px;
+  height: 46px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-color: #D0FFE6;
+}
+.admin-enroll-select {
+  top: 10px;
+  right: 20px;
+  width: 130px;
+  height: 22px;
+  position: absolute;
+  border-radius: 20px;
+}
+.admin-enroll-grade {
+  top: 10px;
+  left: 20px;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.admin-enroll-container5 {
+  top: 177px;
+  flex: 0 0 auto;
+  left: 28px;
+  width: 291px;
+  height: 46px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-color: #D0FFE6;
+}
+.admin-enroll-select1 {
+  top: 10px;
+  right: 20px;
+  width: 130px;
+  position: absolute;
+  border-radius: 20px;
+}
+.admin-enroll-grade1 {
+  top: 10px;
+  left: 20px;
+  position: absolute;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.admin-enroll-navlink3 {
+  right: 20px;
+  width: 293px;
+  bottom: 30px;
+  height: 31px;
+  position: absolute;
+  border-radius: 25px;
+  text-decoration: none;
+}
+.admin-enroll-footer {
+  left: -1px;
+  width: 1920px;
+  bottom: 3px;
+  height: 146px;
+  display: flex;
+  position: absolute;
+  max-width: 100%;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  padding-top: 5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D9D9D9;
+}
+.admin-enroll-text15 {
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  width: 308px;
+  bottom: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-enroll-text17 {
+  top: 49px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 311px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: bold;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-enroll-text19 {
+  top: 79px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 288px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Thin;
+  text-align: left;
+  font-family: "Poppins";
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-enroll-text21 {
+  top: 58px;
+  left: 1031px;
+  color: rgba(0, 0, 0, 1);
+  width: 144px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Light;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-enroll-text23 {
+  top: 62px;
+  left: 761px;
+  color: rgba(0, 0, 0, 1);
+  width: 173px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Light;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.admin-enroll-image {
+  top: 14px;
+  right: 51px;
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  margin: auto;
+  opacity: 1;
+  position: absolute;
+  object-fit: cover;
+}
+.admin-enroll-image1 {
+  top: 14px;
+  right: 160px;
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  margin: auto;
+  opacity: 1;
+  position: absolute;
+  object-fit: cover;
+}
+.admin-enroll-pasted-image {
+  top: 52px;
+  left: 711px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.admin-enroll-pasted-image1 {
+  top: 48px;
+  left: 983px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.admin-enroll-link {
+  display: contents;
+}
+.admin-enroll-facebook {
+  top: 56px;
+  left: 1367px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  text-decoration: none;
+}
+.admin-enroll-instagam {
+  top: 57px;
+  left: 1441px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+@media(max-width: 767px) {
+  .admin-enroll-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .admin-enroll-footer {
+    padding: var(--dl-space-space-unit);
+  }
+}

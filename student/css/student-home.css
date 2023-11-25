@@ -1,0 +1,502 @@
+.student-home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.student-home-image {
+  top: 60px;
+  left: 56px;
+  width: 800px;
+  height: 800px;
+  margin: auto;
+  opacity: 0.03;
+  position: absolute;
+  object-fit: cover;
+}
+.student-home-button {
+  top: 30px;
+  flex: 0 0 auto;
+  left: 30px;
+  width: 692px;
+  height: 95px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+}
+.student-home-navlink {
+  top: 0px;
+  left: 268px;
+  width: 198px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: transparent;
+}
+.student-home-navlink1 {
+  top: 0px;
+  left: 68px;
+  width: 160px;
+  bottom: 0px;
+  height: 94px;
+  margin: auto;
+  position: absolute;
+  border-width: 0px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: #d0ffe6;
+}
+.student-home-navlink2 {
+  top: 0px;
+  right: 42px;
+  width: 152px;
+  bottom: 0px;
+  margin: auto;
+  position: absolute;
+  border-width: 0px;
+  text-decoration: none;
+  background-color: transparent;
+}
+.student-home-vision {
+  top: 137px;
+  flex: 0 0 auto;
+  right: 40px;
+  width: 440px;
+  height: 410px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: linear-gradient(90deg, rgba(189, 195, 199, 0.8) 0.00%,rgba(123, 168, 212, 0.8) 100.00%),url("../public/353038152_660270122783347_7225554566871453316_n-500h.jpg");
+  background-position: top left,center;
+}
+.student-home-text {
+  top: 10px;
+  left: 180px;
+  color: #fb0710;
+  position: absolute;
+  text-align: center;
+}
+.student-home-text01 {
+  top: 57px;
+  left: 23px;
+  color: var(--dl-color-gray-white);
+  width: 400px;
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.student-home-mission {
+  top: 138px;
+  flex: 0 0 auto;
+  left: 949px;
+  width: 480px;
+  height: 410px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: linear-gradient(90deg, rgba(189, 195, 199, 0.8) 0.00%,rgba(123, 168, 212, 0.8) 100.00%),url("public/370549558_705244658285893_7382991558330942145_n-500h.jpg");
+}
+.student-home-text29 {
+  top: 10px;
+  left: 179px;
+  color: #fb0710;
+  position: absolute;
+  text-align: center;
+}
+.student-home-text30 {
+  top: 68px;
+  left: 21px;
+  color: var(--dl-color-gray-white);
+  width: 450px;
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.student-home-text32 {
+  font-family: "Poppins";
+}
+.student-home-text34 {
+  font-family: "Poppins";
+}
+.student-home-text37 {
+  font-family: "Poppins";
+}
+.student-home-text40 {
+  font-family: "Poppins";
+}
+.student-home-text43 {
+  font-family: "Poppins";
+}
+.student-home-core-values {
+  top: 569px;
+  right: 40px;
+  width: 440px;
+  height: 241px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: linear-gradient(90deg, rgb(189, 195, 199) 0.00%,rgba(123, 168, 212, 0.5) 100.00%),url("public/372849286_705217784955247_8366074741574706440_n-500w.jpg");
+  background-position: center;
+}
+.student-home-text46 {
+  top: 15px;
+  left: 0px;
+  color: #fb0710;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.student-home-text47 {
+  top: 80px;
+  left: 0px;
+  color: var(--dl-color-gray-white);
+  right: 0px;
+  width: 440px;
+  margin: auto;
+  position: absolute;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Poppins";
+}
+.student-home-text49 {
+  font-size: 15px;
+  font-family: "Poppins";
+}
+.student-home-text52 {
+  font-size: 15px;
+  font-family: "Poppins";
+}
+.student-home-text55 {
+  font-size: 15px;
+  font-family: "Poppins";
+}
+.student-home-navlink3 {
+  display: contents;
+}
+.student-home-icon-logout {
+  top: 50px;
+  right: 129px;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  position: absolute;
+  text-decoration: none;
+}
+.student-home-navlink4 {
+  top: 50px;
+  right: 29px;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Poppins";
+  text-decoration: none;
+}
+.student-home-container1 {
+  top: 164px;
+  left: 59px;
+  width: 822px;
+  height: 655px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 20px;
+  justify-content: center;
+}
+.student-home-text58 {
+  top: 7px;
+  left: 25px;
+  position: absolute;
+  font-size: 1.5em;
+  font-family: "Poppins";
+}
+.student-home-navlink5 {
+  display: contents;
+}
+.student-home-subjects {
+  top: 161px;
+  flex: 0 0 auto;
+  left: 163px;
+  width: 201px;
+  height: 97px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.student-home-icon-subject {
+  top: 26px;
+  left: 23px;
+  width: var(--dl-size-size-small);
+  height: var(--dl-size-size-small);
+  position: absolute;
+}
+.student-home-text59 {
+  top: 43px;
+  left: 92px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.student-home-navlink6 {
+  display: contents;
+}
+.student-home-forms {
+  top: 161px;
+  flex: 0 0 auto;
+  left: 393px;
+  width: 201px;
+  height: 97px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  border-radius: 20px;
+  text-decoration: none;
+}
+.student-home-icon-form {
+  left: 30px;
+  width: var(--dl-size-size-small);
+  bottom: 26px;
+  height: var(--dl-size-size-small);
+  position: absolute;
+}
+.student-home-text62 {
+  top: 43px;
+  left: 92px;
+  margin: auto;
+  position: absolute;
+  text-align: center;
+}
+.student-home-text65 {
+  top: 42px;
+  left: 25px;
+  position: absolute;
+  font-size: 20px;
+  font-family: "Poppins";
+}
+.student-home-container2 {
+  top: 572px;
+  flex: 0 0 auto;
+  left: 947px;
+  width: 480px;
+  height: 235px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4,5px 5px 10px 0px #d4d4d4;
+  align-items: center;
+  padding-top: 21px;
+  border-radius: 20px;
+  justify-content: center;
+}
+.student-home-text66 {
+  top: 15px;
+  left: 50px;
+  position: absolute;
+  font-size: 25px;
+  font-family: "Poppins";
+}
+.student-home-pasted-image {
+  top: 15px;
+  left: 15px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.student-home-container3 {
+  top: 62px;
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: 451px;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  border-radius: 10px;
+  background-color: #D9D9D9;
+}
+.student-home-text67 {
+  top: 20px;
+  left: 44px;
+  position: absolute;
+  font-size: 14px;
+  align-self: center;
+}
+.student-home-footer {
+  left: -1px;
+  width: 1920px;
+  bottom: 3px;
+  height: 146px;
+  display: flex;
+  position: absolute;
+  max-width: 100%;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+  align-items: flex-start;
+  padding-top: 5px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D9D9D9;
+}
+.student-home-text68 {
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  width: 308px;
+  bottom: 7px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.student-home-text70 {
+  top: 49px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 311px;
+  height: auto;
+  position: absolute;
+  font-size: 18px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: bold;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.student-home-text72 {
+  top: 79px;
+  left: 32px;
+  color: rgba(0, 0, 0, 1);
+  width: 288px;
+  height: auto;
+  position: absolute;
+  font-size: 13px;
+  font-style: Thin;
+  text-align: left;
+  font-family: "Poppins";
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.student-home-text74 {
+  top: 58px;
+  left: 1031px;
+  color: rgba(0, 0, 0, 1);
+  width: 144px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Light;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.student-home-text76 {
+  top: 62px;
+  left: 761px;
+  color: rgba(0, 0, 0, 1);
+  width: 173px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Light;
+  text-align: left;
+  font-family: "Poppins";
+  font-weight: 300;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.student-home-image1 {
+  top: 14px;
+  right: 51px;
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  margin: auto;
+  opacity: 1;
+  position: absolute;
+  object-fit: cover;
+}
+.student-home-image2 {
+  top: 14px;
+  right: 160px;
+  width: var(--dl-size-size-medium);
+  height: var(--dl-size-size-medium);
+  margin: auto;
+  opacity: 1;
+  position: absolute;
+  object-fit: cover;
+}
+.student-home-pasted-image1 {
+  top: 52px;
+  left: 711px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.student-home-pasted-image2 {
+  top: 48px;
+  left: 983px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+.student-home-link {
+  display: contents;
+}
+.student-home-facebook {
+  top: 56px;
+  left: 1367px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  text-decoration: none;
+}
+.student-home-instagam {
+  top: 57px;
+  left: 1441px;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+}
+@media(max-width: 767px) {
+  .student-home-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 479px) {
+  .student-home-footer {
+    padding: var(--dl-space-space-unit);
+  }
+}
